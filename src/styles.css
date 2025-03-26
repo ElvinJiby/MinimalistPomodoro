@@ -2,13 +2,43 @@ body {
     height: 100dvh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Minimalist-Desktop-Wallpaper-HD-Free-download.jpg");
+    background-position: center;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    padding: 50px 80px;
+    gap: 40px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timer p {
+    font-size: 60px;
+    font-weight: 600px;
+    color: azure;
+}
+
+.time {
+    font-size: 80px;
+    background-color: darkolivegreen;
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 footer {
@@ -16,4 +46,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
+    font-size: 20px;
 }

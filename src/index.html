@@ -8,16 +8,22 @@
 </head>
 <body>
     <main>
-        <h1>Pomodoro Timer</h1>
         <div class="timer">
-            <h2>25:00</h2>
-            <button type="submit">Pause</button>
-            <button type="submit">Reset</button>
+            <p>Pomodoro Timer</p>
+            <div class="time">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="options">
+                <button id="start">Start</button>
+                <button id="reset">Reset</button>
+            </div>
         </div>
     </main>
 
     <footer class="footer">
         <p>&copy; 2025 Elvin Jiby</p>
     </footer>
+
+    <script src="/dist/main.js"></script>
 </body>
 </html>
